@@ -94,7 +94,7 @@ const NoteDetailPage = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="Note title"
+                  placeholder="Update Note title"
                   className="input input-bordered"
                   value={note.title}
                   onChange={(e) => setNote({ ...note, title: e.target.value })}
@@ -106,7 +106,7 @@ const NoteDetailPage = () => {
                   <span className="label-text">Content</span>
                 </label>
                 <textarea
-                  placeholder="Write your note here..."
+                  placeholder="Update your note here..."
                   className="textarea textarea-bordered h-32"
                   value={note.content}
                   onChange={(e) => setNote({ ...note, content: e.target.value })}
